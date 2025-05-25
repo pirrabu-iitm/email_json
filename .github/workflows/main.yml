@@ -1,5 +1,18 @@
+name: CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
-  test:
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: 23f3004489@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run tests (step with your email)
+        run: echo "Running tests  - 23f3004489@ds.study.iitm.ac.in"
+      
