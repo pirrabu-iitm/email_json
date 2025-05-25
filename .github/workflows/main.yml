@@ -13,6 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Run tests (step with your email)
+      - name: Run tests (23f3004489@ds.study.iitm.ac.in)
         run: echo "Running tests  - 23f3004489@ds.study.iitm.ac.in"
       
